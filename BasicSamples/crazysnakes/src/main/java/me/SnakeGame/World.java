@@ -1,5 +1,7 @@
 package me.SnakeGame;
 
+import android.graphics.Point;
+
 import java.util.Random;
 
 /**
@@ -20,8 +22,8 @@ public class World {
 
     public Snake snake;
     public Stain stain;
-    public MovingStain movingStain;
-    public boolean gameOver = false;;
+    public MovingMouse movingMouse;
+    public boolean gameOver = false;
     public int score = 0;
 
     boolean fields[][] = new boolean[WORLD_WIDTH][WORLD_HEIGHT];
@@ -32,99 +34,99 @@ public class World {
     public World() {
         snake = new Snake();
         placeStain();
-        placeMovingStain();
+        placeMovingMouse();
     }
 
+    //sets the valid locations to "false" and invalid locations to "true"
+    private void setInvalidLocation(){
+        for (int x = 0; x < WORLD_WIDTH; x++) {
+            for (int y = 0; y < WORLD_HEIGHT; y++) {
+                fields[x][y] = false;
+            }
+        }
+        int len = snake.parts.size();
+        for (int i = 0; i < len; i++) {
+            SnakePart part = snake.parts.get(i);
+            fields[part.x][part.y] = true;
+        }
+    }
+
+    private Point setCoordBounds(Point p){
+        if (p.x >= WORLD_WIDTH - 1) {
+            p.x = 0;
+        }
+        if (p.y >= WORLD_HEIGHT - 1) {
+            p.y = 0;
+        }
+        if (p.x < 0) {
+            p.x = WORLD_WIDTH - 1;
+        }
+        if (p.y < 0) {
+            p.y = WORLD_HEIGHT - 1;
+        }
+        return p;
+    }
+
+    //static stain is consumed
     private void placeStain() {
-        for (int x = 0; x < WORLD_WIDTH; x++) {
-            for (int y = 0; y < WORLD_HEIGHT; y++) {
-                fields[x][y] = false;
-            }
-        }
-
-        int len = snake.parts.size();
-        for (int i = 0; i < len; i++) {
-            SnakePart part = snake.parts.get(i);
-            fields[part.x][part.y] = true;
-        }
-
-        int stainX = random.nextInt(WORLD_WIDTH);
-        int stainY = random.nextInt(WORLD_HEIGHT);
+        setInvalidLocation();
+        //Sets the next location of stain
+        Point p = new Point(random.nextInt(WORLD_WIDTH),random.nextInt(WORLD_HEIGHT));
         while (true) {
-            if (fields[stainX][stainY] == false)
+            if (fields[p.x][p.y] == false)
                 break;
-            stainX += 1;
-            if (stainX >= WORLD_WIDTH) {
-                stainX = 0;
-                stainY += 1;
-                if (stainY >= WORLD_HEIGHT) {
-                    stainY = 0;
-                }
-            }
+            p.x += 1;
+            p = setCoordBounds(p);
         }
-        stain = new Stain(stainX, stainY, random.nextInt(3));
+        stain = new Stain(p.x, p.y, random.nextInt(3));
     }
 
-    private void placeMovingStain() {
-        for (int x = 0; x < WORLD_WIDTH; x++) {
-            for (int y = 0; y < WORLD_HEIGHT; y++) {
-                fields[x][y] = false;
-            }
-        }
-
-        int len = snake.parts.size();
-        for (int i = 0; i < len; i++) {
-            SnakePart part = snake.parts.get(i);
-            fields[part.x][part.y] = true;
-        }
-
-        int stainX = random.nextInt(WORLD_WIDTH);
-        int stainY = random.nextInt(WORLD_HEIGHT);
-        //shifting stain to bottom-right
+    //moving stain (i.e. mouse) is consumed
+    private void placeMovingMouse() {
+        setInvalidLocation();
+        //Sets the next location of stain
+        Point p = new Point(random.nextInt(WORLD_WIDTH),random.nextInt(WORLD_HEIGHT));
         while (true) {
-            if (fields[stainX][stainY] == false)
+            if (fields[p.x][p.y] == false)
                 break;
-            stainX += 1;
-            if (stainX >= WORLD_WIDTH) {
-                stainX = 0;
-                stainY += 1;
-                if (stainY >= WORLD_HEIGHT) {
-                    stainY = 0;
-                }
-            }
+            p.x += 1;
+            p = setCoordBounds(p);
         }
-        movingStain = new MovingStain(stainX, stainY, random.nextInt(3));
+        movingMouse = new MovingMouse(p.x, p.y, random.nextInt(3));
     }
 
-    private void moveMovingStain(){
-        for (int x = 0; x < WORLD_WIDTH; x++) {
-            for (int y = 0; y < WORLD_HEIGHT; y++) {
-                fields[x][y] = false;
-            }
-        }
-
-        int len = snake.parts.size();
-        for (int i = 0; i < len; i++) {
-            SnakePart part = snake.parts.get(i);
-            fields[part.x][part.y] = true;
-        }
-
-        int ran = random.nextInt(9);
-        int stainX = random.nextInt(WORLD_WIDTH);
-        int stainY = random.nextInt(WORLD_HEIGHT);
+    private void moveMovingMouse(){
+        setInvalidLocation();
+        Point p = new Point(movingMouse.x, movingMouse.y);
         while (true) {
-            if (fields[stainX][stainY] == false)
-                break;
-            stainX += 1;
-            if (stainX >= WORLD_WIDTH) {
-                stainX = 0;
-                stainY += 1;
-                if (stainY >= WORLD_HEIGHT) {
-                    stainY = 0;
-                }
+            int ran = random.nextInt(5);
+            //TODO: find a better way to code this?
+            switch(ran){
+                case 1:
+                    p.y += 1;
+                    break;
+                case 2:
+                    p.y -= 1;
+                    break;
+                case 3:
+                    p.x += 1;
+                    break;
+                case 4:
+                    p.x -= 1;
+                    break;
+                default:
+                    assert ran >= 0 && ran <= 8;
             }
+
+            p = setCoordBounds(p);
+            //if mouse cannot move to needed direction, it stays put in original location
+            if(fields[p.x][p.y] == true){
+                p.x = movingMouse.x;
+                p.y = movingMouse.y;
+            }
+            break;
         }
-        movingStain = new MovingStain(stainX, stainY, random.nextInt(3));
+        movingMouse = new MovingMouse(p.x, p.y, movingMouse.type);
     }
 
 
@@ -137,6 +139,7 @@ public class World {
         while (tickTime > tick) {
             tickTime -= tick;
             snake.advance();
+            moveMovingMouse();
             if (snake.checkBitten()) {
                 gameOver = true;
                 return;
@@ -157,14 +160,14 @@ public class World {
                     tick -= TICK_DECREMENT;
                 }
             }
-            if (head.x == movingStain.x && head.y == movingStain.y) {
+            if (head.x == movingMouse.x && head.y == movingMouse.y) {
                 score += SCORE_INCREMENT;
                 snake.eat();
                 if (snake.parts.size() == WORLD_WIDTH * WORLD_HEIGHT) {
                     gameOver = true;
                     return;
                 } else {
-                    placeMovingStain();
+                    placeMovingMouse();
                 }
 
                 if (score % 100 == 0 && tick - TICK_DECREMENT > 0) {

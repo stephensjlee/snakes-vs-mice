@@ -150,7 +150,7 @@ public class GameScreen extends Screen {
         Snake snake = world.snake;
         SnakePart head = snake.parts.get(0);
         Stain stain = world.stain;
-        MovingStain movingStain = world.movingStain;
+        MovingMouse movingStain = world.movingMouse;
 
 
         Pixmap stainPixmap = null;

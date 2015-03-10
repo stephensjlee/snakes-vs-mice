@@ -121,6 +121,13 @@
         <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest/build/intermediates/pre-dexed/debug/classes-7a5d496be6674976f4e9abe6e1ac92240e0805c1.jar" />
     </item>
     <item
+        jar="/home/stephen/Documents/git_projects/snakes-vs-mice/BasicSamples/crazysnakes/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/stephen/Documents/git_projects/snakes-vs-mice/BasicSamples/crazysnakes/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-c0a1b7231112b707b45b699612cd446f7cda8430.jar" />
+    </item>
+    <item
         jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/crazysnakes/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -156,6 +163,13 @@
         <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest/build/intermediates/pre-dexed/debug/classes-9499fe0785d1efcd94d5c48cc111431149d7683b.jar" />
     </item>
     <item
+        jar="/home/stephen/Documents/git_projects/snakes-vs-mice/BasicSamples/crazysnakes/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/stephen/Documents/git_projects/snakes-vs-mice/BasicSamples/crazysnakes/build/intermediates/pre-dexed/debug/classes-c45b38757b2743affd2f3de0e3c0afdd061a8ee7.jar" />
+    </item>
+    <item
         jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
@@ -168,6 +182,13 @@
         revision="20.0.0"
         sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
         <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/CollectAllTheStars2/build/intermediates/pre-dexed/debug/classes-ab0791c73720c9124f600f047bde7c9771b147db.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/snakes-vs-mice/BasicSamples/crazysnakes/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/stephen/Documents/git_projects/snakes-vs-mice/BasicSamples/crazysnakes/build/intermediates/pre-dexed/debug/classes-f2ced2a5e7f4782cffac2da4a94a33cc3f09f79d.jar" />
     </item>
     <item
         jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
