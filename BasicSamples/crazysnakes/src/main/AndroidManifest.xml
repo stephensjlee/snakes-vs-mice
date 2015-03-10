@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.zungo" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="me.SnakeGame.SnakesVsMice"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Life Cycle Test"
+            android:name=".LifeCycleTest"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="SingleTouchTest"
+            android:name=".SingleTouchTest"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="MultiTouchTest"
+            android:name=".MultiTouchTest"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="KeyTest"
+            android:name=".KeyTest"
+            android:windowSoftInputMode="stateVisible"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="AssetsTest"
+            android:name=".AssetsTest"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="RenderViewTest"
+            android:name=".RenderViewTest"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="ShapeTest"
+            android:name=".ShapeTest"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="BitMapTest"
+            android:name=".BitMapTest"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="FontTest"
+            android:name=".FontTest"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="SurfaceViewTest"
+            android:name=".SurfaceViewTest"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+    </application>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+</manifest>

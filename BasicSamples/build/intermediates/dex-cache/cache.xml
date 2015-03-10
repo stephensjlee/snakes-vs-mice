@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/ButtonClicker/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/ButtonClicker/build/intermediates/pre-dexed/debug/classes-9dff52ddb2e7927aabe1544dca1ea4576c4806e8.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest2/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest2/build/intermediates/pre-dexed/release/classes-43bfd822497f1851a7f292ec6a5e325ea4b8f08f.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/CollectAllTheStars2/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/CollectAllTheStars2/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-363a61d92b2c22a50dde7baad11d9d116404fbe5.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TypeANumber/build/intermediates/exploded-aar/BasicSamples.libraries/BaseGameUtils/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6a111a610a6f5c66933b77d19b2210fea0dd1c0f">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-2af19b2b81b3149891f5a189e9473b5bf5a3d1b1.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-5e50cd76ca0ae7c7630e291bf286c9bfe93f327c.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-ff5f1c6d23a4fb2a41e4ba543716c686c4537795.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/crazysnakes/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/crazysnakes/build/intermediates/pre-dexed/debug/classes-a2bba418b89200fa632ad6d8bed44cc9e9c6982e.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest2/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest2/build/intermediates/pre-dexed/release/internal_impl-21.0.0-e9beccea8bbe531e4a3b71e501371d0ad1b1837a.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/crazysnakes/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-ad7ca0009f122d220e32ae7d0f112d3089a3a6e3.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-455ae64b675f19f784a1d42faf6c599395094144.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/ButtonClicker/build/intermediates/exploded-aar/BasicSamples.libraries/BaseGameUtils/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6a111a610a6f5c66933b77d19b2210fea0dd1c0f">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/ButtonClicker/build/intermediates/pre-dexed/debug/classes-282508240dae9049a87af88f448ec10bce10bce3.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/CollectAllTheStars2/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/CollectAllTheStars2/build/intermediates/pre-dexed/debug/classes-4a81403a6b04df4409df1f8bd963418f7b8cb722.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest2/build/intermediates/exploded-aar/BasicSamples.libraries/BaseGameUtils/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6a111a610a6f5c66933b77d19b2210fea0dd1c0f">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest2/build/intermediates/pre-dexed/release/classes-faa3e6e2f6cc1e7a5490f96cec20e73e485d0a33.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/CollectAllTheStars2/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/CollectAllTheStars2/build/intermediates/pre-dexed/debug/classes-33a6c305099df4d9b00e94d4002adebce9beac9f.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-3ad06e6b194510aea6c59fbd82af097171a1be83.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-632c453bb1b611863bed4e048c9047a5ed40e58f.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest/build/intermediates/exploded-aar/BasicSamples.libraries/BaseGameUtils/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6a111a610a6f5c66933b77d19b2210fea0dd1c0f">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest/build/intermediates/pre-dexed/debug/classes-7a5d496be6674976f4e9abe6e1ac92240e0805c1.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/crazysnakes/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/crazysnakes/build/intermediates/pre-dexed/debug/classes-a502797a009e24e81cd3d78cd4986b809519b828.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/ButtonClicker/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/ButtonClicker/build/intermediates/pre-dexed/debug/classes-6d09ac70858f753e8dddee8fcb5c4bd522951281.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/CollectAllTheStars2/build/intermediates/exploded-aar/BasicSamples.libraries/BaseGameUtils/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6a111a610a6f5c66933b77d19b2210fea0dd1c0f">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/CollectAllTheStars2/build/intermediates/pre-dexed/debug/classes-0d054dbb0eba13b3378fd16291077f9e2ca4a8ed.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/ButtonClicker/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/ButtonClicker/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-a7a4955f218de7cf35530d27af03aa689ddf2b7f.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest/build/intermediates/pre-dexed/debug/classes-9499fe0785d1efcd94d5c48cc111431149d7683b.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-7fa7f8c2e261b61e4a2f0d5ebad2a51e13bf9537.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/CollectAllTheStars2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/CollectAllTheStars2/build/intermediates/pre-dexed/debug/classes-ab0791c73720c9124f600f047bde7c9771b147db.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest/build/intermediates/pre-dexed/debug/classes-11399ec024981ffefcd4fbf65001a63dbcef7cc6.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest2/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest2/build/intermediates/pre-dexed/release/classes-493f003b1efbaacb7f42c22b88e2ee005ad56bd7.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/ButtonClicker/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/ButtonClicker/build/intermediates/pre-dexed/debug/classes-edfb69d28e9eea090c40011c6ab090ff745f1de3.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest2/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest2/build/intermediates/pre-dexed/release/classes-f75eea4f10efe9ef057bc588e423d95763d7e47e.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/crazysnakes/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/crazysnakes/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-195a9c3166d5316bf86730cc15da850fd9111300.jar" />
+    </item>
+    <item
+        jar="/home/stephen/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/crazysnakes/build/intermediates/pre-dexed/debug/commons-io-2.4-8e1b825b2017d078f0ca650cdaeb1ed72d627b52.jar" />
+    </item>
+    <item
+        jar="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="/home/stephen/Documents/git_projects/android-basic-samples/BasicSamples/TrivialQuest/build/intermediates/pre-dexed/debug/classes-cb8fb6206d508bdda7fe22626529e5cd905212b8.jar" />
+    </item>
+
+</items>
